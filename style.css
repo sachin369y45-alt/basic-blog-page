@@ -1,0 +1,72 @@
+/* Reset default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bad63b;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Blog title */
+h1 {
+    text-align: center;
+    color: #2e85dc;
+    margin-bottom: 10px;
+}
+
+/* Subtitle */
+body > p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Horizontal line */
+hr {
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Blog post cards */
+div {
+    background: rgb(232, 229, 234);
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Blog post titles */
+h2 {
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+/* Date styling */
+i {
+    color: #888;
+    font-size: 14px;
+}
+
+/* Paragraph text */
+div p {
+    margin-top: 10px;
+}
+
+/* Hover effect */
+div:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+/* Bold text */
+b {
+    color: #000;
+}
